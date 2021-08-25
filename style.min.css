@@ -1,0 +1,192 @@
+/*!
+Theme Name: Daniel Ratliff 1.1
+Theme URI: https://bellaworksweb.com/
+Author: Bellaworksweb
+Author URI: https://bellaworksweb.com/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bellaworks
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+bellaworks is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/body{background-image:url("images/bg-body.jpg");background-repeat:repeat;background-color:#616161;margin:0 !important;font-family:Arial,Helvetica,sans-serif}
+.clear{clear:both}
+A:link{color:#251a2d;text-decoration:underline}
+A:visited{color:#251a2d;text-decoration:underline}
+A:active{color:#251a2d;text-decoration:underline}
+A:hover{color:#816136;text-decoration:underline}
+a,img{border:0}
+h1,h2,h3,h4,h5,h6{margin-bottom:15px}
+h1{font-size:26px;color:#601f27;font-family:Georgia,"Times New Roman",Times,serif;font-weight:normal;margin-top:0 !important}
+h2{font-size:20px;color:#601f27;font-family:Georgia,"Times New Roman",Times,serif;font-weight:normal;margin-top:0 !important}
+h3{font-size:17px;font-weight:normal;color:#601f27;margin-top:35px;margin-bottom:30px}
+h4{font-size:14px}
+h5{font-size:14px}
+h6{font-size:19px;background-color:#612028;display:inline;float:left;padding:20px 40px 20px 40px;margin-top:15px;border-radius:10px}
+h6:hover{background-color:#1f334e;padding:20px 40px 20px 40px}
+h6 a:link{color:#fff;text-decoration:none}
+h6 a:visited{color:#fff;text-decoration:none}
+h6 a:active{color:#fff;text-decoration:none}
+h6 a:hover{color:#fff;text-decoration:none}
+.post{width:900px;float:left}
+.alignleft,.post img.alignleft{display:inline;float:left;margin-right:20px;margin-top:4px}
+.alignright,.post img.alignright{display:inline;float:right;clear:right;margin-left:20px;margin-top:4px}
+.aligncenter,.post img.aligncenter{text-align:center;clear:both;display:block;margin-left:auto;margin-right:auto}
+.post img.alignleft,.post img.alignright,.post img.aligncenter{margin-bottom:20px}
+.post ul{margin-bottom:10px}
+.post ul li{list-style-position:inside;list-style-type:disc;padding-left:1em}
+.post ul li{list-style-position:inside;list-style-type:disc;margin-left:1em}
+.post ul ul li{list-style-position:inside;list-style-type:circle;margin-left:2em}
+.post ul ul ul li{list-style-position:inside;list-style-type:square;margin-left:3em}
+.post ol{margin-bottom:10px}
+.post ol li{list-style-position:inside;margin-left:1em}
+.post ol li li{list-style-position:inside;margin-left:1em}
+ol.commentlist{list-style:none;margin:0;padding:0}
+ol.commentlist li{border:1px solid #d5d5d5;margin:0 0 10px;padding:5px 7px 5px 64px;position:relative;list-style-type:none}
+ol.commentlist li.pingback comment-author{padding:0 170px 0 0;background-color:#f6ffed}
+ol.commentlist li div.vcard{font-size:.8em;line-height:1.5em}
+ol.commentlist li div.vcard cite.fn{font-weight:bold;font-size:1.3em}
+ol.commentlist li div.vcard cite.fn a.url{color:#c00;text-decoration:none}
+ol.commentlist li div.vcard cite.fn a.url:hover{color:#000}
+ol.commentlist li div.vcard img.avatar{background:#fff;border:1px solid #aaa;padding:5px;left:7px;position:absolute;top:7px;margin-left:-60px}
+ol.commentlist li div.comment-meta{position:absolute;right:5px;text-align:right;top:0;font-size:.7em;color:#333}
+ol.commentlist li div.comment-meta a{color:#666;text-decoration:none}
+ol.commentlist li p{margin-top:20px;margin-right:0;margin-bottom:12px;margin-left:0}
+ol.commentlist li ul{list-style:square;margin:0 0 12px;padding:0}
+ol.commentlist li div.reply{border:1px solid #999;color:#333;padding-left:3px;padding-right:3px;text-align:center;font-family:helvetica,arial,sans-serif;font-size:.8em;font-weight:bold;background-color:#ccc;width:50px}
+ol.commentlist li div.reply:hover{background:#c00;border:1px solid #c00;color:#fff}
+ol.commentlist li div.reply a{color:#fff;text-decoration:none;text-transform:uppercase}
+ol.commentlist li ul.children{list-style:none;margin:12px 0 0;text-indent:0}
+ol.commentlist li ul.children li.depth-2{margin:0 0 3px}
+ol.commentlist li ul.children li.depth-3{margin:0 0 3px}
+ol.commentlist li ul.children li.depth-4{margin:0 0 3px}
+ol.commentlist li ul.children li.depth-5{margin:0 0 3px}
+ol.commentlist li.pingback div.vcard{padding:0 170px 0 0}
+ol.pings li{border:1px solid #d5d5d5;margin:0 0 10px;padding:5px 7px 5px 64px;position:relative;list-style-type:none;line-height:1.3em}
+ol.pings{width:auto;font-size:.7em}
+ol.pings h3{font-size:.9em}
+.ml-page-content{width:1040px;padding-left:60px;padding-bottom:20px;font-size:14px;float:left}
+.ml-content-row{width:1040px;float:left;padding-bottom:20px;font-size:14px;margin-bottom:30px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#CCC}
+.ml-thumb{width:190px;float:left;margin-right:20px}
+.ml-left-cont{width:760px;float:left;margin-left:30px}
+.ml-h2{font-size:18px;color:#601f27;font-weight:normal}
+.col-content-row{width:270px;float:left;margin:10px 30px 30px 5px;display:block;border:1px solid #e1e1e1}
+.col-content-row a{text-decoration:none;padding:10px;display:block;border:1px solid #e1e1e1;color:#56646a}
+.col-content-row a:hover{border:1px solid #CCC;background-color:#FFC}
+.col-thumb{width:250px;float:left;height:250px;margin-bottom:20px}
+.col-bot-cont{line-height:25px}
+.col-bot-cont p a,.col-bot-cont h2 a{text-decoration:none}
+.mlr-content-row{width:1000px;float:left;padding-left:60px;padding-right:60px;padding-bottom:20px;font-size:14px;min-height:450px}
+.mlr-left-cont{width:710px;padding-right:30px;float:left}
+.mlr-right-cont{width:250px;float:left;font-size:13px}
+.mlr-right-cont a{padding:10px;display:block;float:left;margin-left:20px;border:solid 1px #612028;text-decoration:none;cursor:default}
+.mlr-right-cont a:hover{padding:10px;display:block;float:left;margin-left:20px;color:#251a2d}
+.mlr-thumb{width:90px;float:left}
+.mlr-thumb-text{width:105px;float:left;padding-left:10px}
+.page-left{width:500px;float:left}
+.page-right{width:450px;float:left;margin-left:40px}
+#bw-red-bar{width:100%;height:12px;float:left;background-image:url("images/bg-red.png");background-repeat:repeat}
+#bw-repeating-bg{width:100%;height:100%;float:left;background-image:url("images/bg-body.jpg");background-repeat:repeat}
+#main{width:1155px;margin-left:auto;margin-right:auto;background-color:#FFF}
+#header{width:1155px;height:135px;float:left}
+#logo{width:406px;height:101px;float:left;padding-left:30px;padding-top:25px}
+#header-buttons{width:133px;height:69px;float:right;padding-bottom:30px;padding-top:6px}
+.header-button{width:133px;height:25px;float:right;padding-bottom:10px;margin-bottom:2px;font-size:14px;text-align:center;padding-top:9px}
+.header-button a{width:133px;height:25px;float:left;background-image:url("images/bg-button.jpg");background-repeat:no-repeat;background-position:0 0;padding-top:9px}
+.header-button a:hover{width:133px;height:25px;float:left;background-image:url("images/bg-button2.jpg");background-repeat:no-repeat;background-position:0 0;padding-top:9px}
+#header-buttons a:link{color:#fff;text-decoration:none}
+#header-buttons a:visited{color:#fff;text-decoration:none}
+#header-buttons a:active{color:#fff;text-decoration:none}
+#header-buttons a:hover{color:#fff;text-decoration:none}
+#payment-button{float:right}
+#header-text{width:475px;height:95px;float:right;padding-top:10px;font-size:12px;text-align:right;padding-right:30px;line-height:20px}
+#navigation-wrapper{width:1155px;float:left;height:50px;padding-bottom:20px}
+#navigation{width:845px;height:50px;float:right;padding-right:15px}
+#bw-home-image{width:1065px;height:285px;float:left;background-image:url("images/bg-home-image.jpg");background-repeat:no-repeat;margin-left:50px}
+#bw-home-image-text{width:520px;padding-left:344px;padding-top:181px;float:left;font-size:16px;color:#FFF}
+.post-container{float:left}
+#bw-row1{width:1065px;height:302px;float:left;margin-left:53px;margin-top:35px;font-size:13px;color:#3f3f3f}
+#bw-row1-box1{width:289px;height:302px;float:left;padding-right:20px}
+#bw-row1-box2{width:302px;height:302px;float:left;padding-left:30px;background-image:url("images/bg-row1box.jpg");background-repeat:no-repeat;background-position:left;font-size:18px;color:#ccc;font-family:Georgia,"Times New Roman",Times,serif}
+#bw-row1-box2 a:link{color:#ccc;text-decoration:none}
+#bw-row1-box2 a:visited{color:#ccc;text-decoration:none}
+#bw-row1-box2 a:active{color:#ccc;text-decoration:none}
+#bw-row1-box2 a:hover{color:#fff;text-decoration:none}
+#bw-row1-box3{width:390px;height:302px;float:left;padding-left:30px;background-image:url("images/bg-row1box.jpg");background-repeat:no-repeat;background-position:left}
+#news{width:390px;float:left}
+#news a:link{color:#3f3f3f;text-decoration:none}
+#news a:visited{color:#3f3f3f;text-decoration:none}
+#news a:active{color:#3f3f3f;text-decoration:none}
+#news a:hover{color:#666;text-decoration:none}
+#news ul{list-style-type:none;padding-left:0;margin-left:0;margin-top:10px}
+#news li{background:url("images/bullet.jpg") left top no-repeat;padding-left:15px;margin-bottom:10px}
+#bw-services-box1{width:130px;height:92px;float:left;background-image:url("images/bg-business-development2.jpg");background-repeat:no-repeat;margin-right:11px;margin-bottom:13px}
+#bw-services-box1 a{width:120px;height:57px;float:left;background-image:url("images/bg-business-development2.jpg");background-repeat:no-repeat;background-position:0 0;padding-left:10px;padding-top:35px}
+#bw-services-box1 a:hover{width:120px;height:57px;float:left;background-image:url("images/bg-business-developmentv2.jpg");background-repeat:no-repeat;background-position:0 0;padding-left:10px;padding-top:35px}
+#bw-services-box2{width:130px;height:92px;float:left;background-image:url("images/bg-tax-services2.jpg");background-repeat:no-repeat;margin-bottom:13px}
+#bw-services-box2 a{width:120px;height:57px;float:left;background-image:url("images/bg-tax-services2.jpg");background-repeat:no-repeat;background-position:0 0;padding-left:10px;padding-top:35px}
+#bw-services-box2 a:hover{width:120px;height:57px;float:left;background-image:url("images/bg-tax-servicesv2.jpg");background-repeat:no-repeat;background-position:0 0;padding-left:10px;padding-top:35px}
+#bw-services-box3{width:130px;height:92px;float:left;background-image:url("images/bg-audit-services2.jpg");background-repeat:no-repeat;margin-right:11px}
+#bw-services-box3 a{width:120px;height:57px;float:left;background-image:url("images/bg-audit-services2.jpg");background-repeat:no-repeat;background-position:0 0;padding-left:10px;padding-top:35px}
+#bw-services-box3 a:hover{width:120px;height:57px;float:left;background-image:url("images/bg-audit-servicesv2.jpg");background-repeat:no-repeat;background-position:0 0;padding-left:10px;padding-top:35px}
+#bw-services-box4{width:130px;height:92px;float:left;background-image:url("images/bg-general-accounting2.jpg");background-repeat:no-repeat;line-height:17px}
+#bw-services-box4 a{width:120px;height:57px;float:left;background-image:url("images/bg-general-accounting2.jpg");background-repeat:no-repeat;background-position:0 0;padding-left:10px;padding-top:35px}
+#bw-services-box4 a:hover{width:120px;height:57px;float:left;background-image:url("images/bg-general-accountingv2.jpg");background-repeat:no-repeat;background-position:0 0;padding-left:10px;padding-top:35px}
+#read-more{width:90px;height:26px;background-image:url("images/read-more.jpg");background-repeat:no-repeat;float:right}
+#read-more a{width:90px;height:26px;float:left;background-image:url("images/read-more.jpg");background-repeat:no-repeat;background-position:0 0}
+#read-more a:hover{width:90px;height:26px;float:left;background-image:url("images/read-more2.jpg");background-repeat:no-repeat;background-position:0 0}
+#bw-footer{width:1065px;height:80px;margin-left:53px;margin-top:15px;font-size:13px;color:#3f3f3f;border-top:solid 1px #999}
+#bw-footer2{width:474px;float:left;height:47px;font-size:12px;color:#3a1b1d;padding-top:31px}
+#bw-footer3{width:510px;float:right;height:74px;font-size:13px;color:#666;padding-top:4px;text-align:right}
+.page-content{padding-left:60px;padding-right:60px;padding-bottom:20px;font-size:14px;float:left;width:90%;min-height:450px}
+.single-post-container{min-height:270px;width:90%;padding-left:60px;padding-right:60px;padding-bottom:20px;font-size:14px;float:left}
+#comments{visibility:hidden;height:1px}
+.blogentry{float:left;margin-left:60px;margin-bottom:30px;padding-top:7px;padding-bottom:30px;width:650px;font-size:14px;position:relative}
+#news-boxes-wrapper{width:250px;float:right}
+.resources{width:240px;padding-right:10px;float:right;line-height:21px;border:solid 1px #612028;padding-top:5px;background-color:#eee;margin-bottom:10px}
+.resources li{margin-bottom:10px}
+.newsletters{width:240px;padding-right:10px;float:right;line-height:21px;border:solid 1px #612028;padding-top:5px;background-color:#eee}
+.newsletters li{margin-bottom:10px}
+.news{width:240px;float:right;padding-right:10px;line-height:21px;border:solid 1px #612028;padding-top:5px;background-color:#eee;margin-left:55px;margin-bottom:30px}
+.news li{margin-bottom:10px}
+.blogentry-left{float:left;margin-bottom:30px;padding-top:7px;padding-bottom:30px;width:650px;font-size:14px;border-bottom:1px solid #999}
+.blog-featured-image{float:left;padding-right:0;display:none;visibility:hidden}
+#blog-back{width:1020px;margin-left:60px;font-size:13px;float:left;padding-bottom:20px}
+#bw-tagline{padding-left:20px;font-size:20px;font-weight:normal;font-family:Georgia,"Times New Roman",Times,serif;text-align:center;color:#333;letter-spacing:2px;margin-top:10px}
+.bw-tagline-font1{color:#5b0000;font-size:22px}
+#bw-services-boxes{font-size:21px;font-family:Georgia,"Times New Roman",Times,serif;width:1070px;float:left;padding-bottom:40px}
+#bw-services-boxes a:link{color:#ccc;text-decoration:none}
+#bw-services-boxes a:visited{color:#ccc;text-decoration:none}
+#bw-services-boxes a:active{color:#ccc;text-decoration:none}
+#bw-services-boxes a:hover{color:#fff;text-decoration:none}
+#services-services-box1{width:210px;height:102px;float:left;background-image:url("images/bg-business-development2.jpg");background-repeat:no-repeat;margin-right:30px;margin-bottom:13px;background-color:#5f2221}
+#services-services-box1 a{width:200px;height:67px;float:left;background-image:url("images/bg-business-development2.jpg");background-repeat:no-repeat;background-position:70px 0;padding-left:20px;padding-top:45px;background-color:#5f2221}
+#services-services-box1 a:hover{width:200px;height:67px;float:left;background-image:url("images/bg-business-developmentv2.jpg");background-repeat:no-repeat;background-position:70px 0;padding-left:20px;padding-top:45px;background-color:#1f334e}
+#services-services-box2{width:210px;height:102px;float:left;background-repeat:no-repeat;margin-right:30px;margin-bottom:13px;background-color:#5f2221;background-image:url("images/bg-tax-services2.jpg")}
+#services-services-box2 a{width:200px;height:67px;float:left;background-image:url("images/bg-tax-services2.jpg");background-repeat:no-repeat;background-position:70px 0;padding-left:20px;padding-top:45px;background-color:#5f2221}
+#services-services-box2 a:hover{width:200px;height:67px;float:left;background-image:url("images/bg-tax-servicesv2.jpg");background-repeat:no-repeat;background-position:70px 0;padding-left:20px;padding-top:45px;background-color:#1f334e}
+#services-services-box3{width:210px;height:102px;float:left;background-repeat:no-repeat;margin-right:30px;margin-bottom:13px;background-color:#5f2221;background-image:url("images/bg-audit-services2.jpg")}
+#services-services-box3 a{width:200px;height:67px;float:left;background-image:url("images/bg-audit-services2.jpg");background-repeat:no-repeat;background-position:70px 0;padding-left:20px;padding-top:45px;background-color:#5f2221}
+#services-services-box3 a:hover{width:200px;height:67px;float:left;background-image:url("images/bg-audit-servicesv2.jpg");background-repeat:no-repeat;background-position:70px 0;padding-left:20px;padding-top:45px;background-color:#1f334e}
+#services-services-box4{width:210px;height:102px;float:left;background-repeat:no-repeat;margin-right:30px;margin-bottom:13px;background-color:#5f2221;background-image:url("images/bg-general-accounting2.jpg")}
+#services-services-box4 a{width:200px;height:67px;float:left;background-image:url("images/bg-general-accounting2.jpg");background-repeat:no-repeat;background-position:70px 0;padding-left:20px;padding-top:45px;background-color:#5f2221}
+#services-services-box4 a:hover{width:200px;height:67px;float:left;background-image:url("images/bg-general-accountingv2.jpg");background-repeat:no-repeat;background-position:70px 0;padding-left:20px;padding-top:45px;background-color:#1f334e}
+#payment-button input{width:133px;height:34px;float:right;margin-bottom:2px;font-size:14px;text-align:center;padding-top:0;background-image:url("images/bg-button.jpg");background-repeat:no-repeat;background-position:0 0;background-color:transparent;border:0;color:#fff;cursor:pointer}
+#payment-button input:hover{width:133px;height:34px;float:right;background-image:url("images/bg-button2.jpg");background-repeat:no-repeat;background-position:0 0;padding-top:0;cursor:pointer}
+section.hero{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;color:#fff;width:100%;margin:20px auto}
+section.hero .left{width:40%;background-color:#65212a;position:relative;z-index:100}
+section.hero .left .tag{position:absolute;top:20px;left:20px;height:100%;font-family:arimo,sans-serif;font-weight:400;font-style:normal}
+section.hero .left .tag .first{width:200px;font-size:30px;text-align:center;line-height:1.2}
+section.hero .left .tag .second{width:500px;text-align:left;clear:both;font-size:50px;margin:30px 0 30px 50px;font-family:arimo,sans-serif;font-weight:700;font-style:normal}
+section.hero .left .tag .third{width:190%;position:absolute;left:20px;bottom:60px;font-size:22px;line-height:1.2;letter-spacing:2px;font-family:arimo,sans-serif;font-weight:400;font-style:normal;text-transform:uppercase}
+section.hero .right{width:60%;position:relative;line-height:0;z-index:50}
+section.hero .right img{width:100%}
