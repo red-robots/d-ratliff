@@ -47,8 +47,8 @@
 <div id="header-buttons">    
 <div class="header-button"><a href="https://danielratliff.sharefile.com/" target="_blank">Client Login</a></div> 
 <div id="payment-button">
-
-	<form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="f7df4473-2d1b-413f-84b9-b77d991ae71e" /> <input type = "submit" value = "Make A Payment" /> </form>
+	<a href="https://link.clover.com/urlshortener/Tst6R2" target="_blank">Make A Payment</a>
+	<!--<form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="f7df4473-2d1b-413f-84b9-b77d991ae71e" /> <input type = "submit" value = "Make A Payment" /> </form>-->
 	<!-- <form action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx" method="post" name="PrePage"><input name="LinkId" type="hidden" value="cf577b8c-ddbf-4d2b-a3a6-5903be7219f3" /> <input type="submit" value="Make A Payment" /></form> -->
 </div>
 </div> 
