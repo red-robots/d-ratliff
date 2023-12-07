@@ -56,7 +56,7 @@
 </div> 
 
 <div id="header-text">
-  <p>2815 Coliseum Centre Drive | Suite 200 | Charlotte, NC 28217<br /> phone 704-371-5000  | fax 704-371-4888 
+  <p>3800 Arco Corporate Drive | Suite 500 | Charlotte, NC 28273<br /> phone 704-371-5000  | fax 704-371-4888 
 </div>   
     
 </div><!-- #header -->
