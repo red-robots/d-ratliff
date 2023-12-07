@@ -145,7 +145,7 @@
 
 <div id="bw-footer">
 
-<div id="bw-footer2">2815 Coliseum Centre Drive | Suite 200 | Charlotte, NC 28217<br>
+<div id="bw-footer2">3800 Arco Corporate Drive | Suite 500 | Charlotte, NC 28273<br>
 
   <a href="<?php bloginfo('url'); ?>/sitemap/">sitemap</a>  |  site by <a href="http://bellaworksweb.com/" target="_blank">Bellaworks</a>
 
