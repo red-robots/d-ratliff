@@ -25,6 +25,9 @@
 </script>
 <!--- end menu -->
 <!-- lw2 -->
+<style type="text/css">
+	.dropmenudiv { z-index: 1000000 !important; }
+</style>
 </head>
 
 <body>
@@ -40,7 +43,7 @@
     <div id="logo">
     
     
-    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/daniel-ratliff-and-company.jpg" alt="Daniel, Ratliff &amp; Company" border="0"></a> 
+    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/d-logo-new.jpg" alt="Daniel, Ratliff &amp; Company" border="0"></a> 
     </div><!-- #logo -->
     
     

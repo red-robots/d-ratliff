@@ -39,7 +39,7 @@
 
   <h2>our clients</h2>
 
-  <p>“We enjoy working with Daniel, Ratliff &amp; Company because they have always taken a great interest in helping our business in any way they can, including bringing excellent resources to the table for all type of services, not just financial.”</p>
+  <p>“We enjoy working with DRC Tax & Accounting because they have always taken a great interest in helping our business in any way they can, including bringing excellent resources to the table for all type of services, not just financial.”</p>
 
   <p><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2013/09/jacqueline_ford_client.jpg" alt="Daniel, Ratliff &amp; Company" border="0" align="left" style="margin-right: 10px;"><br /><strong>Jacqueline Ford</strong><br />
 
@@ -83,7 +83,7 @@
 
 <div id="bw-row1-box3"><h2>our philosophy</h2>
 
-<p>We  believe we are rewarded only to the extent that we add value to those we are  privileged to serve. At Daniel, Ratliff &amp; Company, we are here to serve you  and to help your  business achieve its goals. We do so by learning your business and the  challenges you face, then working with you to guide you toward success.
+<p>We  believe we are rewarded only to the extent that we add value to those we are  privileged to serve. At DRC Tax & Accounting, we are here to serve you  and to help your  business achieve its goals. We do so by learning your business and the  challenges you face, then working with you to guide you toward success.
 
 <div id="read-more"><a href="<?php bloginfo('url'); ?>/about-daniel-ratliff/"></a></div>
 
