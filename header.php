@@ -27,6 +27,51 @@
 <!-- lw2 -->
 <style type="text/css">
 	.dropmenudiv { z-index: 1000000 !important; }
+	#payment-button {
+		position: relative;
+		width: auto;
+	}
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	  background-color: #65222a;
+	  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+	  min-width: 160px;
+	  z-index: 1;
+	  border-radius: 5px;
+	  overflow: hidden;
+	}
+
+	.dropdown-content a {
+	  display: block;
+	  padding: 10px;
+	  text-decoration: none;
+	  color: #fff;
+	  line-height: 1;
+	}
+
+	.dropdown-content a:hover {
+	  background-color: #1f324e;
+	}
+	.dropper {
+		/*width: auto;*/
+		position: relative;
+		width: 133px;
+	    height: 25px;
+	    float: left;
+	    background-image: url(<?php bloginfo('template_url'); ?>/images/bg-button.jpg);
+	    background-repeat: no-repeat;
+	    background-position: 0 0px;
+	    padding-top: 9px;
+	    color: #fff;
+	    line-height: 0;
+	}
+
+	.dropper:hover .dropdown-content {
+	  display: block;
+	}
 </style>
 </head>
 
@@ -49,10 +94,14 @@
     
 <div id="header-buttons">    
 <div class="header-button"><a href="https://danielratliff.sharefile.com/" target="_blank">Client Login</a></div> 
-<div id="payment-button">
+<div id="payment-button" class="dropper">
 	<div class="header-button">
-		<a href="https://link.clover.com/urlshortener/Tst6R2" target="_blank">Make A Payment</a>
+		Make a Payment
 	</div>
+	<div class="dropdown-content">
+	    <a href="https://link.clover.com/urlshortener/Tst6R2" target="_blank">Credit Card</a>
+	    <a href="https://collectcheckout.com/r/eh1b81yjejbhmsx1nda91bnxljycoa" target="_blank">ACH</a>
+	  </div>
 	<!--<form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="f7df4473-2d1b-413f-84b9-b77d991ae71e" /> <input type = "submit" value = "Make A Payment" /> </form>-->
 	<!-- <form action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx" method="post" name="PrePage"><input name="LinkId" type="hidden" value="cf577b8c-ddbf-4d2b-a3a6-5903be7219f3" /> <input type="submit" value="Make A Payment" /></form> -->
 </div>
