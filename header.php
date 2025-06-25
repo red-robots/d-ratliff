@@ -99,7 +99,7 @@
 		Make a Payment
 	</div>
 	<div class="dropdown-content">
-	    <a href="https://link.clover.com/urlshortener/Tst6R2" target="_blank">Credit Card</a>
+	    <a href="https://quickclick.com/r/od76k0m7utecrnqb97g77f3srdf1hm" target="_blank">Credit Card</a>
 	    <a href="https://collectcheckout.com/r/eh1b81yjejbhmsx1nda91bnxljycoa" target="_blank">ACH</a>
 	  </div>
 	<!--<form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="f7df4473-2d1b-413f-84b9-b77d991ae71e" /> <input type = "submit" value = "Make A Payment" /> </form>-->
