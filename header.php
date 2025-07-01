@@ -88,7 +88,7 @@
     <div id="logo">
     
     
-    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/d-logo-new.jpg" alt="Daniel, Ratliff &amp; Company" border="0"></a> 
+    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/d-logo-new-blue.png" alt="Daniel, Ratliff &amp; Company" border="0"></a> 
     </div><!-- #logo -->
     
     
