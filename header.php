@@ -75,7 +75,7 @@
 </style>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 
 <div id="bw-repeating-bg">
 
