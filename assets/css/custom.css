@@ -214,6 +214,7 @@ div[id*="services-services-box"] a {
   background-image: none!important;
   background-color: var(--site-primary-color)!important;
   transition: var(--transition);
+  font-size: 23px;
 }
 div[id*="services-services-box"] {
   margin-right: 0 !important;
@@ -230,7 +231,7 @@ div[id*="services-services-box"] a:hover {
   display: flex!important;
   flex-wrap: wrap;
   align-items: flex-end;
-  padding: 10px;
+  padding: 15px!important;
 }
 div[id*="services-services-box"] a:hover {
   background-color: var(--site-secondary-color)!important;
