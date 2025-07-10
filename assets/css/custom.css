@@ -172,5 +172,12 @@ div[id*="bw-services-box"] a:before {
   position: absolute;
   top: 12px;
   right: 12px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: none;
+  filter: brightness(0) invert(1);
+}
+div#bw-services-box1 a:before {
+  background-image: url('../images/_icons/graph.svg');
 }
 
