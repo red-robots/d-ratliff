@@ -31,7 +31,7 @@
   width: 113px;
   height: 35px;
   padding: 0 10px;
-  transition: all ease .3s;
+  transition: all ease .2s;
 }
 #header .header-button a:hover,
 #header .header-button a:focus {
@@ -59,21 +59,28 @@
   align-items: center;
   justify-content: center;
   margin: 0 0;
-  transition: all ease .3s;
+  transition: all ease .2s;
 }
 #header #payment-button.dropper:hover .header-button {
   background-color: var(--site-secondary-color);
 }
 #header #payment-button.dropper .dropdown-content {
-  background-color: var(--site-primary-color);
+  box-shadow: none;
+  background-color: transparent;
   min-width: 134px;
   z-index: 2;
   border-radius: 0 0 0 8px;
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 0;
+  padding-top: 12px;
 }
 #header #payment-button.dropper .dropdown-content a {
   padding: 10px 13px;
+  background-color: var(--site-primary-color);
+  transition: all ease .2s;
+}
+#header #payment-button.dropper .dropdown-content a:first-child {
+  border-top-left-radius: 8px;
 }
 #header #payment-button.dropper .dropdown-content a:hover {
   background-color: var(--site-secondary-color);
