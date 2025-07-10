@@ -9,10 +9,10 @@
 #main h3,
 #main h4,
 #main h5,
-#main .ml-h2,
 #bw-footer #bw-footer2 {
   color: var(--site-primary-color);
 }
+#main .ml-h2,
 #main .bw-tagline-font1 {
   color: var(--site-highlight-color);
 }
