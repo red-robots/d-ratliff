@@ -214,6 +214,35 @@ function my_login_logo_url_title() {
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' ); 
 
+function bellaworks_body_classes( $classes ) {
+    // Adds a class of group-blog to blogs with more than 1 published author.
+   global $post;
+    if ( is_multi_author() ) {
+        $classes[] = 'group-blog';
+    }
+
+    // Adds a class of hfeed to non-singular pages.
+    if ( ! is_singular() ) {
+        $classes[] = 'hfeed';
+    }
+
+    if ( is_front_page() || is_home() ) {
+        $classes[] = 'homepage';
+    } else {
+        $classes[] = 'subpage';
+    }
+    if(is_page() && $post) {
+      $classes[] = $post->post_name;
+    }
+
+    $browsers = ['is_iphone', 'is_chrome', 'is_safari', 'is_NS4', 'is_opera', 'is_macIE', 'is_winIE', 'is_gecko', 'is_lynx', 'is_IE', 'is_edge'];
+    $classes[] = join(' ', array_filter($browsers, function ($browser) {
+        return $GLOBALS[$browser];
+    }));
+
+    return $classes;
+}
+add_filter( 'body_class', 'bellaworks_body_classes' );
 
 function bellaworks_custom_scripts() {
   wp_enqueue_style('bellaworks-extra-style', get_stylesheet_directory_uri() .'/assets/css/custom.css', array(), '1.0.0', 'all' );
