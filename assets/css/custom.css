@@ -1,0 +1,54 @@
+:root {
+  --site-primary-color: #152348;
+  --site-secondary-color: #152348;
+}
+#main h1,
+#main h2,
+#main h3,
+#main h4,
+#main h5,
+#main .ml-h2,
+#main .bw-tagline-font1,
+#bw-footer #bw-footer2 {
+  color: var(--site-primary-color);
+}
+#navigation-wrapper .chromestyle ul li a {
+  color: var(--site-primary-color);
+}
+#navigation-wrapper .dropmenudiv a:hover {
+  color: var(--site-primary-color);
+}
+#main section.hero .left {
+  background-color: var(--site-primary-color);
+}
+#header .header-button a {
+  background-image: none !important;
+  background-color: var(--site-primary-color);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: inline-block;
+  transition: all ease .3s;
+}
+#header .header-button a:hover,
+#header .header-button a:focus {
+  background-color: var(--site-secondary-color);
+}
+#header #payment-button.dropper {
+  background-image: none !important;
+  background-color: var(--site-primary-color);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: inline-block;
+  transition: all ease .3s;
+}
+#header #payment-button.dropper .header-button {
+  position: relative;
+  top: -1px;
+}
+#header #payment-button.dropper .dropdown-content {
+  background-color: var(--site-primary-color);
+}
+#header #payment-button.dropper .dropdown-content a:hover {
+  background-color: var(--site-secondary-color);
+}
+

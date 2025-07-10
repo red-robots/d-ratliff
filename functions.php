@@ -214,4 +214,10 @@ function my_login_logo_url_title() {
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' ); 
 
+
+function bellaworks_custom_scripts() {
+  wp_enqueue_style('bellaworks-extra-style', get_stylesheet_directory_uri() .'/assets/css/custom.css', array(), '1.0.0', 'all' );
+}
+add_action( 'wp_enqueue_scripts', 'bellaworks_custom_scripts' );
+
 ?>
