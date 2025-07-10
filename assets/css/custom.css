@@ -186,6 +186,7 @@ div#bw-services-box2 a:before {
 }
 div#bw-services-box3 a:before {
   background-image: url('_icons/stamp.svg');
+  transform: rotate(45deg);
 }
 div#bw-services-box4 a:before {
   background-image: url('_icons/calculator.svg');
