@@ -19,6 +19,9 @@ a:hover {
 #main .bw-tagline-font1 {
   color: var(--site-highlight-color);
 }
+#navigation-wrapper #navigation {
+  padding-right: 25px;
+}
 #navigation-wrapper .chromestyle ul li a {
   color: var(--site-primary-color);
 }
