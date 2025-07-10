@@ -153,4 +153,7 @@ div[id*="bw-services-box"] a {
   align-items: flex-end;
   padding: 10px;
 }
+div[id*="bw-services-box"] a:hover {
+  background-color: var(--site-secondary-color);
+}
 
