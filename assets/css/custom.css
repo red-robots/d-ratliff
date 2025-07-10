@@ -201,7 +201,40 @@ div#bw-services-box3 a:before {
 div#bw-services-box4 a:before {
   background-image: url('_icons/calculator.svg');
 }
-
+.gform_wrapper,
+.gform_wrapper * {
+  box-sizing: border-box;
+}
+.gform_wrapper input:not(.button),
+.gform_wrapper select,
+.gform_wrapper textarea {
+  border: 1px solid #383838;
+  padding: 5px;
+}
+.gform_legacy_markup_wrapper textarea {
+  height: 120px;
+}
+.gform_wrapper input:not(.button),
+.gform_wrapper select {
+  height: 32px;
+}
+.gform_wrapper .gform_footer {
+  margin-top: 0!important;
+}
+.gform_wrapper .gform_footer .gform_button.button {
+  appearance: none;
+  border: 1px solid var(--site-primary-color);
+  padding: 10px 20px 9px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: var(--site-primary-color);
+  color: #FFF;
+  transition: var(--transition);
+}
+.gform_wrapper .gform_footer .gform_button.button:hover {
+  border-color: var(--site-secondary-color);
+  background-color: var(--site-secondary-color);
+}
 
 
 
