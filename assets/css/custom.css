@@ -157,4 +157,17 @@ div[id*="bw-services-box"] a:hover {
 div[id*="bw-services-box"] a:hover {
   background-color: var(--site-secondary-color);
 }
+div[id*="bw-services-box"] a {
+  position: relative;
+}
+div[id*="bw-services-box"] a:before {
+  content:"";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: -1;
+}
 
