@@ -139,4 +139,18 @@ div[id*="bw-services-box"] a {
   background-color: var(--site-primary-color);
   transition: var(--transition);
 }
+div[id*="bw-services-box"] {
+  margin-right: 11px;
+  margin-bottom: 11px;
+}
+div[id*="bw-services-box"] a {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 10px;
+}
 
