@@ -205,18 +205,15 @@ a:hover {
   background-image: url('_icons/calculator.svg');
 }
 
-/*.page-template-page-services #bw-services-boxes {
-
-}*/
 div[id*="services-services-box"],
 div[id*="services-services-box"] a {
   background-image: none!important;
-  background-color: var(--site-primary-color);
+  background-color: var(--site-primary-color)!important;
   transition: var(--transition);
 }
 div[id*="services-services-box"] {
-  margin-right: 11px;
-  margin-bottom: 11px;
+  margin-right: 11px!important;
+  margin-bottom: 11px!important;
 }
 div[id*="services-services-box"] a,
 div[id*="services-services-box"] a:hover {
@@ -230,7 +227,7 @@ div[id*="services-services-box"] a:hover {
   padding: 10px;
 }
 div[id*="services-services-box"] a:hover {
-  background-color: var(--site-secondary-color);
+  background-color: var(--site-secondary-color)!important;
 }
 div[id*="services-services-box"] a {
   position: relative;
