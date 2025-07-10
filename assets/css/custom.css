@@ -235,6 +235,26 @@ div#bw-services-box4 a:before {
   border-color: var(--site-secondary-color);
   background-color: var(--site-secondary-color);
 }
+.gform_legacy_markup_wrapper ul.gform_fields li.gfield:has(input.medium) {
+  width: 48%!important;
+  float: left;
+  clear: none;
+}
+.gform_legacy_markup_wrapper ul.gform_fields li.gfield--type-name,
+.gform_legacy_markup_wrapper ul.gform_fields li.gfield.gfield--type-textarea {
+  width: 100%!important;
+}
+.gform_legacy_markup_wrapper ul.gform_fields li.gfield {
+  padding-right: 0!important;
+}
+.gform_legacy_markup_wrapper ul.gform_fields li.gfield:has(input.medium) input {
+  width: 100%;
+}
+.gform_legacy_markup_wrapper ul.gform_fields {
+  display: flex!important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 
 
