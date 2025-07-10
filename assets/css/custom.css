@@ -170,14 +170,27 @@ div[id*="bw-services-box"] a:before {
   width: 40px;
   height: 40px;
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 10px;
+  right: 10px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   filter: brightness(0) invert(1);
+  opacity: 0.3;
 }
 div#bw-services-box1 a:before {
   background-image: url('_icons/graph.svg');
 }
+div#bw-services-box2 a:before {
+  background-image: url('_icons/scales.svg');
+}
+div#bw-services-box3 a:before {
+  background-image: url('_icons/stamp.svg');
+}
+div#bw-services-box4 a:before {
+  background-image: url('_icons/calculator.svg');
+}
+
+
+
 
