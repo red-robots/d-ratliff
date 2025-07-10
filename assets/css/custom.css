@@ -1,6 +1,7 @@
 :root {
   --site-primary-color: #152348;
   --site-secondary-color: #2B73B6;
+  --transition: all ease .2s;
 }
 #main h1,
 #main h2,
@@ -31,7 +32,7 @@
   width: 113px;
   height: 35px;
   padding: 0 10px;
-  transition: all ease .2s;
+  transition: var(--transition);
 }
 #header .header-button a:hover,
 #header .header-button a:focus {
@@ -59,7 +60,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 0;
-  transition: all ease .2s;
+  transition: var(--transition);
 }
 #header #payment-button.dropper:hover .header-button {
   background-color: var(--site-secondary-color);
@@ -77,7 +78,7 @@
 #header #payment-button.dropper .dropdown-content a {
   padding: 10px 13px;
   background-color: var(--site-primary-color);
-  transition: all ease .2s;
+  transition: var(--transition);
 }
 #header #payment-button.dropper .dropdown-content a:first-child {
   border-top-left-radius: 8px;
@@ -85,5 +86,57 @@
 #header #payment-button.dropper .dropdown-content a:hover {
   background-color: var(--site-secondary-color);
 }
+#bw-red-bar {
+  height: 10px;
+  background-image: none;
+  background-color: var(--site-secondary-color);
+  opacity: 0.75;
+}
+#read-more {
+  background-image: none;
+  width: unset;
+  height: unset;
+  display: inline-block;
+}
+#read-more a {
+  background-color: var(--site-primary-color);
+}
+#read-more a,
+#read-more a:hover {
+  position: relative;
+  background-image: none;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: unset;
+  height: unset;
+  padding: 7px 10px;
+  text-decoration: none!important;
+}
+#read-more a:hover {
+  background-color: var(--site-secondary-color)!important;
+}
+#read-more a:before {
+  content:"read more";
+  display: inline-block;
+  color: #FFF;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  margin-right: 13px;
+}
+#read-more a:after {
+  content:"+";
+  display: inline-block;
+  color: #FFF;
+  font-size: 13px;
+  transform: scale(1.5);
+}
 
+div[id*="bw-services-box"],
+div[id*="bw-services-box"] a {
+  background-image: none!important;
+  background-color: var(--site-primary-color);
+  transition: var(--transition);
+}
 
