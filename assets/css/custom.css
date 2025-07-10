@@ -23,10 +23,14 @@
 }
 #header .header-button a {
   background-image: none !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--site-primary-color);
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  display: inline-block;
+  border-radius: 8px 0 0 8px;
+  width: 113px;
+  height: 35px;
+  padding: 0 10px;
   transition: all ease .3s;
 }
 #header .header-button a:hover,
@@ -35,20 +39,44 @@
 }
 #header #payment-button.dropper {
   background-image: none !important;
-  background-color: var(--site-primary-color);
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  background-color: transparent;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   display: inline-block;
-  transition: all ease .3s;
+  padding: 0 0;
+  margin-top: 3px;
 }
 #header #payment-button.dropper .header-button {
+  cursor: pointer;
   position: relative;
-  top: -1px;
+  background-color: var(--site-primary-color);
+  border-radius: 8px 0 0 8px;
+  width: 113px;
+  height: 35px;
+  padding: 0 10px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0;
+  transition: all ease .3s;
+}
+#header #payment-button.dropper:hover .header-button {
+  background-color: var(--site-secondary-color);
 }
 #header #payment-button.dropper .dropdown-content {
   background-color: var(--site-primary-color);
+  min-width: 134px;
+  z-index: 2;
+  border-radius: 8px 0 0 8px;
+  overflow: hidden;
+  margin-top: 12px;
+}
+#header #payment-button.dropper .dropdown-content a {
+  padding: 10px 13px;
 }
 #header #payment-button.dropper .dropdown-content a:hover {
   background-color: var(--site-secondary-color);
 }
+
 
