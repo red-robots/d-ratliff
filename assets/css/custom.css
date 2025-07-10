@@ -159,6 +159,10 @@ div[id*="bw-services-box"] a:hover {
 }
 div[id*="bw-services-box"] a {
   position: relative;
+  color: #d5d5d5!important;
+}
+div[id*="bw-services-box"] a:hover {
+  color: #FFF!important;
 }
 div[id*="bw-services-box"] a span {
   position: relative;
