@@ -204,7 +204,11 @@ a:hover {
 .home div#bw-services-box4 a:before {
   background-image: url('_icons/calculator.svg');
 }
-
+#bw-services-boxes:has([id*="services-services-box"]) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 div[id*="services-services-box"],
 div[id*="services-services-box"] a {
   background-image: none!important;
@@ -212,8 +216,10 @@ div[id*="services-services-box"] a {
   transition: var(--transition);
 }
 div[id*="services-services-box"] {
-  margin-right: 11px!important;
-  margin-bottom: 11px!important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  width: 23.33% !important;
+  padding: 0 0 !important;
 }
 div[id*="services-services-box"] a,
 div[id*="services-services-box"] a:hover {
@@ -243,8 +249,8 @@ div[id*="services-services-box"] a span {
 div[id*="services-services-box"] a:before {
   content: "";
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   top: 10px;
   right: 10px;
