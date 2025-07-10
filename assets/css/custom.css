@@ -23,7 +23,13 @@ a:hover {
   padding-right: 25px;
 }
 #navigation-wrapper .chromestyle ul li a {
+  display: inline-block;
   color: var(--site-primary-color);
+  transition: var(--transition);
+}
+#navigation-wrapper .chromestyle ul li a:hover,
+#navigation-wrapper .chromestyle ul li a:focus {
+  color: var(--site-secondary-color);
 }
 #navigation-wrapper .dropmenudiv a:hover {
   color: var(--site-primary-color);
