@@ -49,33 +49,21 @@
 
 <div id="bw-row1-box2"><h2>our services</h2>
 
-
-
 <div id="bw-services-box1">
-
-  <a href="<?php bloginfo('url'); ?>/business-development">business<br />development</a></div>
-
-
+  <a href="<?php bloginfo('url'); ?>/business-development"><span>business<br />development</span></a>
+</div>
 
 <div id="bw-services-box2">
-
- <a href="<?php bloginfo('url'); ?>/tax-services">tax<br />
-
-    services</a></div>
-
-
+ <a href="<?php bloginfo('url'); ?>/tax-services"><span>tax<br />services</span></a>
+</div>
 
 <div id="bw-services-box3">
-
-  <a href="<?php bloginfo('url'); ?>/audit-services">audit<br />
-
-    services</a></div>
-
-
+  <a href="<?php bloginfo('url'); ?>/audit-services"><span>audit<br />services</span></a>
+</div>
 
 <div id="bw-services-box4">
-
- <a href="<?php bloginfo('url'); ?>/general-accounting">accounting<br />& business services</a></div>
+ <a href="<?php bloginfo('url'); ?>/general-accounting"><span>accounting<br />& business services</span></a>
+</div>
 
 
 
