@@ -68,9 +68,9 @@
   background-color: var(--site-primary-color);
   min-width: 134px;
   z-index: 2;
-  border-radius: 8px 0 0 8px;
+  border-radius: 0 0 0 8px;
   overflow: hidden;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 #header #payment-button.dropper .dropdown-content a {
   padding: 10px 13px;
