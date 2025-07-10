@@ -4,6 +4,9 @@
   --site-highlight-color: #315da7;
   --transition: all ease .2s;
 }
+a:hover {
+  color: var(--site-highlight-color);
+}
 #main h1,
 #main h2,
 #main h3,
