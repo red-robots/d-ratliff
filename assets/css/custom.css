@@ -1,6 +1,7 @@
 :root {
   --site-primary-color: #152348;
   --site-secondary-color: #2B73B6;
+  --site-highlight-color: #315da7;
   --transition: all ease .2s;
 }
 #main h1,
@@ -9,9 +10,11 @@
 #main h4,
 #main h5,
 #main .ml-h2,
-#main .bw-tagline-font1,
 #bw-footer #bw-footer2 {
   color: var(--site-primary-color);
+}
+#main .bw-tagline-font1 {
+  color: var(--site-highlight-color);
 }
 #navigation-wrapper .chromestyle ul li a {
   color: var(--site-primary-color);
