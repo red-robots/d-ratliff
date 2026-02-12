@@ -99,7 +99,7 @@
 		Make a Payment
 	</div>
 	<div class="dropdown-content">
-	    <a href="https://quickclick.com/r/od76k0m7utecrnqb97g77f3srdf1hm" target="_blank">Credit Card</a>
+	    <a href="https://quickclick.com/r/w6dm9wphb8niv037wpw59k7fz5d8co" target="_blank">Credit Card</a>
 	    <a href="https://collectcheckout.com/r/eh1b81yjejbhmsx1nda91bnxljycoa" target="_blank">ACH</a>
 	  </div>
 	<!--<form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="f7df4473-2d1b-413f-84b9-b77d991ae71e" /> <input type = "submit" value = "Make A Payment" /> </form>-->
@@ -140,7 +140,7 @@
 <div id="dropmenu2" class="dropmenudiv">
 <a href="<?php bloginfo('url'); ?>/business-development">Business Development</a>
 <a href="<?php bloginfo('url'); ?>/tax-services">Tax Services</a>
-<a href="<?php bloginfo('url'); ?>/audit-services">Audit Services</a>
+<a href="https://alineaccounting.com/aapg-llp-audit-attest-services/" target="_blank">Audit Services</a>
 <a href="<?php bloginfo('url'); ?>/general-accounting">Accounting & Business Services</a>
 </div>
 
