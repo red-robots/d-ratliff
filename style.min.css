@@ -144,9 +144,9 @@ ol.pings h3{font-size:.9em}
 #read-more{width:90px;height:26px;background-image:url("images/read-more.jpg");background-repeat:no-repeat;float:right}
 #read-more a{width:90px;height:26px;float:left;background-image:url("images/read-more.jpg");background-repeat:no-repeat;background-position:0 0}
 #read-more a:hover{width:90px;height:26px;float:left;background-image:url("images/read-more2.jpg");background-repeat:no-repeat;background-position:0 0}
-#bw-footer{width:1065px;height:80px;margin-left:53px;margin-top:15px;font-size:13px;color:#3f3f3f;border-top:solid 1px #999}
-#bw-footer2{width:474px;float:left;height:47px;font-size:12px;color:#3a1b1d;padding-top:31px}
-#bw-footer3{width:510px;float:right;height:74px;font-size:13px;color:#666;padding-top:4px;text-align:right}
+#bw-footer{width:100%;font-size:13px;color:#3f3f3f;background-color:#fff;float:left;overflow:hidden;border-top:solid 1px #999}
+#bw-footer2{width:40%;float:left;font-size:12px;color:#3a1b1d;padding:31px 0 20px 20px}
+#bw-footer3{width:50%;float:right;font-size:13px;color:#666;text-align:right;padding:20px}
 .page-content{padding-left:60px;padding-right:60px;padding-bottom:20px;font-size:14px;float:left;width:90%;min-height:450px}
 .single-post-container{min-height:270px;width:90%;padding-left:60px;padding-right:60px;padding-bottom:20px;font-size:14px;float:left}
 #comments{visibility:hidden;height:1px}
